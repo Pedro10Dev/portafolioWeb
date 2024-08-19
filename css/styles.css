@@ -629,6 +629,7 @@ ul li {
         border-radius: 16px;
         box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
     }
+
     .contenido article img {
         border-radius: 16px;
         box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
@@ -643,6 +644,7 @@ ul li {
 #portafolio {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: start;
 }
 
@@ -679,6 +681,7 @@ ul li {
     border-radius: 2rem;
     margin: 0 30px;
     display: flex;
+
     align-items: flex-end;
     transition: .6s cubic-bezier(.28, -0.03, 0, .99);
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
@@ -760,6 +763,19 @@ input:checked+label .description {
     background-image: url('/img/proyecto-prueba-4.jfif');
 }
 
+@media (max-width:767px) {
+    .contenido-portafolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-portafolio {
+        width: 300px;
+    }
+}
+
 /*----HABILIDADES----*/
 #habilidades {
     min-height: 80vh;
@@ -771,7 +787,7 @@ input:checked+label .description {
 
 
 .habilidades .contenido-seccion {
-    max-width: 1100px;
+    max-width: 1300px;
     margin: auto;
 
 }
@@ -805,6 +821,7 @@ input:checked+label .description {
     border-radius: 30px;
     text-align: center;
     box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+    margin: 20px;
 }
 
 .contenido-habilidades article span {
@@ -864,6 +881,26 @@ input:checked+label .description {
 
 .contenido-habilidades img {
     padding-top: 20px;
+}
+
+@media (max-width:767px) {
+    .contenido-habilidades {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;/
+    }
+
+    .habilidades .contenido-seccion {
+        max-width: 750px;
+        margin: auto;
+    }
+
+    .contenido-habilidades article {
+
+        margin: 20px;
+    }
+
 }
 
 /*----FOOTER----*/
