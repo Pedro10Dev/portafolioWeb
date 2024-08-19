@@ -280,13 +280,7 @@ ul li {
 }
 
 @media (max-width:767px) {
-    body {
-        font-family: 'Poppins', sans-serif;
-        background: #010E1C;
-        background-image: linear-gradient(to right, #010E1C, #152A3C);
-        color: #ffffff;
-        width: 100%;
-    }
+    /*----Inicio----*/
 
     .card {
         position: relative;
@@ -295,7 +289,7 @@ ul li {
         padding-bottom: 600px;
         padding-left: 20px;
         align-items: center;
-        
+
 
     }
 
@@ -339,7 +333,7 @@ ul li {
         flex-direction: column;
         justify-content: center;
         padding: 20px 30px 0 30px;
-       
+
     }
 
     .middle img {
@@ -350,28 +344,31 @@ ul li {
         align-content: center;
         margin-left: 60px;
     }
+
     .middle .right {
         margin: 20px 0 10px 0px;
-        
+
     }
-    .middle label{
+
+    .middle label {
         font-size: 20px;
         padding-left: 15px;
     }
-    
-   
+
+
 
     ul li {
         list-style-type: circle;
 
-        
+
     }
+
     .social-icon {
         display: flex;
         flex-direction: row;
         padding: 10px 10px 30px 20px;
     }
-    
+
     .social-icon span {
         display: flex;
         justify-content: center;
@@ -383,40 +380,39 @@ ul li {
         margin: 0 5px;
         transition: .4s;
         cursor: pointer;
-        
-       
+
+
     }
-    
+
     .social-icon i {
         font-size: 30px;
     }
-    
+
     .social-icon a {
         text-decoration: none;
         color: white;
     }
-    
+
     .social-icon span:hover {
         color: #3c79db;
         background: #ffffff;
         transform: translateY(-8px);
         box-shadow: inset 0 0 0 15px #ffffff;
     }
-    
+
     .social-icon .gmail:hover {
         color: red;
         background: #ffffff;
         transform: translateY(-8px);
         box-shadow: inset 0 0 0 15px #ffffff;
     }
-    
+
     .social-icon .github:hover {
         color: black;
         background: #ffffff;
         transform: translateY(-8px);
         box-shadow: inset 0 0 0 15px #ffffff;
     }
-
 
 }
 
@@ -521,6 +517,61 @@ ul li {
     color: black;
 }
 
+@media (max-width:767px) {
+
+    /*----Sobre Mi----*/
+    .contenido-sobre-mi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        padding: 0 20px 0 20px;
+    }
+
+    .contenido-sobre-mi img {
+        border: 7px solid aqua;
+        width: 300px;
+        height: 350px;
+    }
+
+    .informacion-sobre-mi {
+        padding: 10px;
+    }
+
+    .informacion-sobre-mi h1 {
+        font-size: 30px;
+        
+        font-family: "Inconsolata", monospace;
+    }
+
+    .informacion-sobre-mi span {
+        font-size: 30px;
+       
+        font-family: "Inconsolata", monospace;
+    }
+
+
+    .informacion-sobre-mi span {
+        color: aqua;
+    }
+
+    .informacion-sobre-mi p {
+        padding-top: 10px;
+        text-align: justify;
+    }
+
+
+    .informacion-sobre-mi-typing {
+        animation: none;
+        width: 90%;
+        white-space: nowrap;
+       
+        overflow: hidden;
+        border-right: 3px solid;
+    }
+}
+
+
 /*----ESTUDIOS----*/
 #estudios {
     min-height: 70vh;
@@ -562,6 +613,7 @@ ul li {
     margin: 16px;
 
 }
+
 
 
 
