@@ -540,13 +540,13 @@ ul li {
 
     .informacion-sobre-mi h1 {
         font-size: 30px;
-        
+
         font-family: "Inconsolata", monospace;
     }
 
     .informacion-sobre-mi span {
         font-size: 30px;
-       
+
         font-family: "Inconsolata", monospace;
     }
 
@@ -565,7 +565,7 @@ ul li {
         animation: none;
         width: 90%;
         white-space: nowrap;
-       
+
         overflow: hidden;
         border-right: 3px solid;
     }
@@ -612,6 +612,28 @@ ul li {
 .contenido article p {
     margin: 16px;
 
+}
+
+@media (max-width:767px) {
+    .contenido {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .contenido article {
+        margin: 10px;
+        max-width: 320px;
+        transition: box-shadow 0.3s ease;
+        background-color: rgba(255, 255, 255, .1);
+        border-radius: 16px;
+        box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+    }
+    .contenido article img {
+        border-radius: 16px;
+        box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+        width: 320px;
+    }
 }
 
 
