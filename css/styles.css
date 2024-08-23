@@ -576,10 +576,63 @@ ul li {
         white-space: nowrap;
 
         overflow: hidden;
-        border-right: 3px solid;
+        border-right: none;
     }
 }
 
+@media(min-width:768px) and (max-width:1023px) {
+
+    /*----Sobre Mi----*/
+    .contenido-sobre-mi {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        padding: 0 20px 0 20px;
+    }
+
+    .contenido-sobre-mi img {
+        border: 7px solid aqua;
+        width: 300px;
+        height: 350px;
+    }
+
+    .informacion-sobre-mi {
+        padding: 40px;
+        
+    }
+
+    .informacion-sobre-mi h1 {
+        font-size: 30px;
+
+        font-family: "Inconsolata", monospace;
+    }
+
+    .informacion-sobre-mi span {
+        font-size: 30px;
+
+        font-family: "Inconsolata", monospace;
+    }
+
+
+    .informacion-sobre-mi span {
+        color: aqua;
+    }
+
+    .informacion-sobre-mi p {
+        padding-top: 10px;
+        text-align: justify;
+    }
+
+
+    .informacion-sobre-mi-typing {
+        animation: none;
+        width: 90%;
+        white-space: nowrap;
+
+        overflow: hidden;
+        border-right: none;
+    }
+}
 
 /*----ESTUDIOS----*/
 #estudios {
@@ -603,7 +656,7 @@ ul li {
 
 .contenido article {
     margin: 10px;
-    max-width: 520px;
+    max-width: 420px;
     transition: box-shadow 0.3s ease;
     background-color: rgba(255, 255, 255, .1);
     border-radius: 16px;
@@ -628,6 +681,7 @@ ul li {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 20px;
+
     }
 
     .contenido article {
@@ -637,6 +691,31 @@ ul li {
         background-color: rgba(255, 255, 255, .1);
         border-radius: 16px;
         box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+
+    }
+
+    .contenido article img {
+        border-radius: 16px;
+        box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+        width: 320px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1023px) {
+    .contenido {
+        display: grid;
+        grid-gap: 20px;
+
+    }
+
+    .contenido article {
+        margin: 10px;
+        max-width: 320px;
+        transition: box-shadow 0.3s ease;
+        background-color: rgba(255, 255, 255, .1);
+        border-radius: 16px;
+        box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+
     }
 
     .contenido article img {
@@ -674,6 +753,7 @@ ul li {
     flex-wrap: wrap;
     padding: 50px 100px;
     margin: 0 auto;
+
 }
 
 .ag-courses_item {
@@ -690,7 +770,7 @@ ul li {
     background-color: rgba(255, 255, 255, .1);
     text-decoration: none;
     overflow: hidden;
-   
+
     position: relative;
 }
 
@@ -698,7 +778,7 @@ ul li {
 .ag-courses-item_link:hover .ag-courses-item_date {
     text-decoration: none;
     color: #FFF;
-   
+
 }
 
 .ag-courses-item_link:hover .ag-courses-item_bg {
@@ -710,9 +790,9 @@ ul li {
 .ag-courses-item_title {
     min-height: 87px;
     margin: 0 0 25px;
-  
+
     overflow: hidden;
-   
+
     font-weight: bold;
     font-size: 24px;
     color: #FFF;
@@ -741,7 +821,7 @@ ul li {
 .ag-courses-item_bg {
     height: 128px;
     width: 128px;
-    background-color:black ;
+    background-color: black;
 
     z-index: 1;
     position: absolute;
@@ -756,11 +836,11 @@ ul li {
 }
 
 .ag-courses_item:nth-child(2n) .ag-courses-item_bg {
-    background-color:black ;
+    background-color: black;
 }
 
 .ag-courses_item:nth-child(3n) .ag-courses-item_bg {
-    background-color:black ;
+    background-color: black;
 }
 
 
@@ -770,6 +850,7 @@ ul li {
     .ag-courses_item {
         -ms-flex-preferred-size: calc(50% - 30px);
         flex-basis: calc(50% - 30px);
+
     }
 
     .ag-courses-item_title {
@@ -780,6 +861,12 @@ ul li {
 @media only screen and (max-width: 767px) {
     .ag-format-container {
         width: 96%;
+    }
+
+    .ag-courses_box {
+
+        padding: 50px 10px;
+
     }
 
 }
@@ -818,8 +905,8 @@ ul li {
 
 .habilidades .contenido-seccion {
     max-width: 1300px;
-    margin: auto;
-
+    margin: auto 0;
+    
 }
 
 .container-habilidades {
@@ -932,6 +1019,24 @@ ul li {
     }
 
 }
+@media(min-width:768px) and (max-width:1500px){
+    .contenido-habilidades {
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        justify-content: space-between;
+    }
+
+    .habilidades .contenido-seccion {
+        max-width: 750px;
+        margin: auto;
+    }
+
+    .contenido-habilidades article {
+
+        margin: 20px;
+    }
+}
 
 /*----FOOTER----*/
 footer {
@@ -956,5 +1061,5 @@ footer a {
 }
 
 footer a:hover {
-    color: #3c79db;
+    color: aquamarine;
 }
