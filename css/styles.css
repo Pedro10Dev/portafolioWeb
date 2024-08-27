@@ -3,8 +3,6 @@
 
 * {
     box-sizing: border-box;
-
-
 }
 
 body {
@@ -20,7 +18,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .card {
@@ -34,10 +31,6 @@ body {
     -webkit-transition: 1s;
     transition: 1s;
     transform-style: preserve-3d;
-
-
-
-
 }
 
 /*----CARD FRONT----*/
@@ -50,8 +43,6 @@ body {
     border-radius: 30px;
     transform: perspective(500px) rotateY(0deg);
     position: absolute;
-
-
 }
 
 .card .back {
@@ -63,10 +54,7 @@ body {
     border-radius: 30px;
     transform: perspective(500px) rotateY(180deg);
     position: absolute;
-
-
 }
-
 
 .top {
     display: flex;
@@ -199,7 +187,6 @@ ul li {
     margin: 0 5px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-
 }
 
 .flip-button:hover {
@@ -210,7 +197,6 @@ ul li {
     border: none;
     margin: 0 5px;
     cursor: pointer;
-
 }
 
 .card .front {
@@ -253,23 +239,18 @@ ul li {
 }
 
 .middle-back {
-
     width: 100%;
     height: 190px;
     text-align: center;
     padding: 20px;
     padding-top: 80px;
-
 }
 
 .middle-back a {
     text-decoration: none;
     color: white;
     padding: 20px;
-
-
     transition: .4s;
-
 }
 
 .middle-back a:hover {
@@ -286,7 +267,6 @@ ul li {
         display: flex;
         justify-content: center;
         align-content: center;
-
     }
 
     .card {
@@ -294,9 +274,6 @@ ul li {
         margin: 0 auto;
         width: 350px;
         height: 600px;
-
-
-
     }
 
     .card .front {
@@ -309,8 +286,6 @@ ul li {
         transform: perspective(500px) rotateY(0deg);
         position: absolute;
         margin: auto 0;
-
-
     }
 
     .card .back {
@@ -328,7 +303,6 @@ ul li {
     .top span {
         font-size: 16px;
         margin-left: -10px;
-
     }
 
     .middle {
@@ -336,7 +310,6 @@ ul li {
         flex-direction: column;
         justify-content: center;
         padding: 20px 30px 0 30px;
-
     }
 
     .middle img {
@@ -350,7 +323,6 @@ ul li {
 
     .middle .right {
         margin: 20px 0 10px 0px;
-
     }
 
     .middle label {
@@ -362,8 +334,6 @@ ul li {
 
     ul li {
         list-style-type: circle;
-
-
     }
 
     .social-icon {
@@ -383,8 +353,6 @@ ul li {
         margin: 0 5px;
         transition: .4s;
         cursor: pointer;
-
-
     }
 
     .social-icon i {
@@ -455,7 +423,6 @@ ul li {
         color: white;
         padding: 20px;
         transition: .4s;
-
     }
 
     .middle-back a:hover {
@@ -480,9 +447,9 @@ ul li {
         transform: rotateY(0deg);
     }
 
-   .button-back{
-    margin-top: 240px;
-   }
+    .button-back {
+        margin-top: 240px;
+    }
 }
 
 /*----Sobre Mi----*/
@@ -497,7 +464,6 @@ ul li {
     color: white;
     padding-top: 40px;
     text-align: center;
-
 }
 
 .contenido-sobre-mi {
@@ -513,9 +479,7 @@ ul li {
     height: 520px;
 }
 
-
 .informacion-sobre-mi {
-
     padding-left: 40px;
 }
 
@@ -559,7 +523,7 @@ ul li {
     }
 
     100% {
-        width: 560px;
+        width: 520px;
     }
 }
 
@@ -609,13 +573,11 @@ ul li {
 
     .informacion-sobre-mi h1 {
         font-size: 30px;
-
         font-family: "Inconsolata", monospace;
     }
 
     .informacion-sobre-mi span {
         font-size: 30px;
-
         font-family: "Inconsolata", monospace;
     }
 
@@ -634,14 +596,12 @@ ul li {
         animation: none;
         width: 90%;
         white-space: nowrap;
-
         overflow: hidden;
         border-right: none;
     }
 }
 
 @media(min-width:768px) and (max-width:1023px) {
-
     /*----Sobre Mi----*/
     .contenido-sobre-mi {
         display: flex;
@@ -658,21 +618,17 @@ ul li {
 
     .informacion-sobre-mi {
         padding: 40px;
-
     }
 
     .informacion-sobre-mi h1 {
         font-size: 30px;
-
         font-family: "Inconsolata", monospace;
     }
 
     .informacion-sobre-mi span {
         font-size: 30px;
-
         font-family: "Inconsolata", monospace;
     }
-
 
     .informacion-sobre-mi span {
         color: aqua;
@@ -683,12 +639,10 @@ ul li {
         text-align: justify;
     }
 
-
     .informacion-sobre-mi-typing {
         animation: none;
         width: 90%;
         white-space: nowrap;
-
         overflow: hidden;
         border-right: none;
     }
@@ -728,14 +682,10 @@ ul li {
     box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
 }
 
-
-
 .contenido article h3,
 .contenido article p {
     margin: 16px;
 }
-
-
 
 .contenido .python,
 .java,
@@ -813,9 +763,7 @@ ul li {
 }
 
 .lenguaje {
-
     padding: 0px 0px 30px 15px;
-
 }
 
 @media (max-width:767px) {
@@ -833,7 +781,6 @@ ul li {
         background-color: rgba(255, 255, 255, .1);
         border-radius: 16px;
         box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
-
     }
 
     .contenido article img {
@@ -851,7 +798,6 @@ ul li {
     .contenido {
         display: grid;
         grid-gap: 20px;
-
     }
 
     .contenido article {
@@ -861,7 +807,6 @@ ul li {
         background-color: rgba(255, 255, 255, .1);
         border-radius: 16px;
         box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
-
     }
 
     .contenido article img {
@@ -874,9 +819,6 @@ ul li {
         display: none;
     }
 }
-
-
-
 
 /*----PORTAFOLIO----*/
 #portafolio {
@@ -903,7 +845,6 @@ ul li {
     flex-wrap: wrap;
     padding: 50px 100px;
     margin: 0 auto;
-
 }
 
 .ag-courses_item {
@@ -920,7 +861,6 @@ ul li {
     background-color: rgba(255, 255, 255, .1);
     text-decoration: none;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -928,7 +868,6 @@ ul li {
 .ag-courses-item_link:hover .ag-courses-item_date {
     text-decoration: none;
     color: #FFF;
-
 }
 
 .ag-courses-item_link:hover .ag-courses-item_bg {
@@ -940,9 +879,7 @@ ul li {
 .ag-courses-item_title {
     min-height: 87px;
     margin: 0 0 25px;
-
     overflow: hidden;
-
     font-weight: bold;
     font-size: 24px;
     color: #FFF;
@@ -954,7 +891,6 @@ ul li {
 .ag-courses-item_date-box {
     font-size: 18px;
     color: #FFF;
-
     z-index: 2;
     position: relative;
 }
@@ -962,7 +898,6 @@ ul li {
 .ag-courses-item_date {
     font-weight: bold;
     color: aquamarine;
-
     -webkit-transition: color .5s ease;
     -o-transition: color .5s ease;
     transition: color .5s ease
@@ -972,14 +907,11 @@ ul li {
     height: 128px;
     width: 128px;
     background-color: black;
-
     z-index: 1;
     position: absolute;
     top: -75px;
     right: -75px;
-
     border-radius: 50%;
-
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
@@ -993,16 +925,11 @@ ul li {
     background-color: black;
 }
 
-
-
-
 @media only screen and (max-width: 979px) {
     .ag-courses_item {
         -ms-flex-preferred-size: calc(50% - 30px);
         flex-basis: calc(50% - 30px);
-
     }
-
     .ag-courses-item_title {
         font-size: 24px;
     }
@@ -1049,9 +976,7 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: start;
-
 }
-
 
 .habilidades .contenido-seccion {
     max-width: 1300px;
@@ -1071,8 +996,6 @@ ul li {
     padding-top: 20px;
     padding-bottom: 40px;
     text-align: center;
-
-
 }
 
 .contenido-habilidades {
@@ -1095,7 +1018,6 @@ ul li {
     font-size: 36px;
     font-weight: bold;
     color: black;
-
 }
 
 .contenido-frontend {
@@ -1120,9 +1042,7 @@ ul li {
 
 .imagen p {
     font-size: 12px;
-
 }
-
 
 .contenido-backend {
     display: grid;
@@ -1164,7 +1084,6 @@ ul li {
     }
 
     .contenido-habilidades article {
-
         margin: 20px;
     }
 
@@ -1193,7 +1112,6 @@ ul li {
 footer {
     padding: 48px;
     color: #fff;
-
 }
 
 footer section {
