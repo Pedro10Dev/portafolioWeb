@@ -693,9 +693,10 @@ ul li {
 .html,
 .css,
 .js {
-    border: 3px solid #ffde57;
+    border: 3px solid #010E1C;
+    color: white;
     border-radius: 10%;
-    color: #ffde57;
+    background-color:#010E1C;
     padding: 5px;
     font-size: 12px;
     margin-right: 3px;
@@ -713,8 +714,6 @@ ul li {
 }
 
 .java {
-    border: 3px solid #f89820;
-    color: #f89820;
     background-image: url("/img/java.png");
     background-repeat: no-repeat;
     background-position: left center;
@@ -723,8 +722,6 @@ ul li {
 }
 
 .spring {
-    border: 3px solid #87BD48;
-    color: #87BD48;
     background-image: url("/img/springboot.png");
     background-repeat: no-repeat;
     background-position: left center;
@@ -733,8 +730,6 @@ ul li {
 }
 
 .html {
-    border: 3px solid #e34c26;
-    color: #e34c26;
     background-image: url("/img/html-5.png");
     background-repeat: no-repeat;
     background-position: left center;
@@ -743,8 +738,6 @@ ul li {
 }
 
 .css {
-    border: 3px solid #264de4;
-    color: #264de4;
     background-image: url("/img/css-3.png");
     background-repeat: no-repeat;
     background-position: left center;
@@ -753,8 +746,6 @@ ul li {
 }
 
 .js {
-    border: 3px solid #f0db4f;
-    color: #f0db4f;
     background-image: url("/img/js.png");
     background-repeat: no-repeat;
     background-position: left center;
