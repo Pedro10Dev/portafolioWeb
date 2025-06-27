@@ -706,7 +706,7 @@ ul li {
 }
 
 .lenguaje .python {
-    background-image: url("/img/piton.png");
+    background-image: url("img/piton.png");
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 25px;
@@ -714,7 +714,7 @@ ul li {
 }
 
 .java {
-    background-image: url("/img/java.png");
+    background-image: url("img/java.png");
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 25px;
@@ -722,7 +722,7 @@ ul li {
 }
 
 .spring {
-    background-image: url("/img/springboot.png");
+    background-image: url("img/springboot.png");
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 25px;
@@ -730,7 +730,7 @@ ul li {
 }
 
 .html {
-    background-image: url("/img/html-5.png");
+    background-image: url("img/html-5.png");
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 25px;
@@ -738,7 +738,7 @@ ul li {
 }
 
 .css {
-    background-image: url("/img/css-3.png");
+    background-image: url("img/css-3.png");
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 25px;
@@ -746,7 +746,7 @@ ul li {
 }
 
 .js {
-    background-image: url("/img/js.png");
+    background-image: url("img/js.png");
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 25px;
