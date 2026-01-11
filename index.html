@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Web Pedro Arellano </title>
+    <title>Portafolio Web Pedro Arellano</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -13,339 +13,443 @@
     <!-- INICIO -->
     <section id="inicio">
         <div class="card">
-            <div class="front">
-                <div class="top">
-                    <img src="img/bandera-venezuela.webp" alt="bandera-venezuela" width="30px">
-                    <span>Pedro Arellano , 26 años</span>
-                    <i class="bx bx-dots-vertical-rounded"></i>
-                    <p>Valencia, Carabobo</p>
-                </div>
-                <div class="middle">
-                    <div class="left">
-                        <img src="img/fotoPerfil2.JPG" alt="foto de perfil">
+            <div class="card-inner">
+                <div class="front">
+                    <div class="top">
+                        <div class="top-left-group">
+                            <img src="img/bandera-venezuela.webp" alt="bandera-venezuela">
+                            <span>Pedro Arellano, <span id="edad-card"></span> años</span>
+                        </div>
+                        <i class="bx bx-dots-vertical-rounded"></i>
                     </div>
-                    <div class="right">
-                        <label for="">Skills:</label>
-                        <div>
+                    <div class="middle">
+                        <div class="left">
+                            <img src="img/foto_perfil.jpeg" alt="foto de perfil">
+                        </div>
+                        <div class="right">
+                            <label>Skills:</label>
                             <ul>
-                                <li>Programador Java</li>
-                                <li>Programador Web</li>
-                                <li>Marketing Digital</li>
+                                <li>Programador Java & Python</li>
+                                <li>Desarrollo Web Full Stack</li>
+                                <li>Marketing & Estrategia Digital</li>
+                                <li>Risk Assurance (PwC)</li>
                             </ul>
-                        </div>
-                        <div class="social-icon">
-                            <a href="mailto:pedroarellano9810@gmail.com">
-                                <span class="gmail"><i class="bx bxl-gmail"></i></span>
-
-                            </a>
-                            <a href="http://www.linkedin.com/in/pedro-arellano-b0ab63285" target="_blank">
-                                <span><i class="bx bxl-linkedin"></i></span>
-                            </a>
-                            <a href="https://github.com/Pedro10Dev" target="_blank">
-                                <span class="github"><i class="bx bxl-github"></i></span>
-                            </a>
-                            <a href="pdf/pedroArellanoCV.pdf"  download target="_blank">
-                                <span><i class="bx bx-download"></i></span>
-                            </a>
+                            <div class="social-icon">
+                                <a href="mailto:pedroarellano9810@gmail.com" title="Gmail">
+                                    <i class="bx bxl-gmail"></i>
+                                </a>
+                                <a href="http://www.linkedin.com/in/pedro-arellano-b0ab63285" target="_blank"
+                                    title="LinkedIn">
+                                    <i class="bx bxl-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Pedro10Dev" target="_blank" title="GitHub">
+                                    <i class="bx bxl-github"></i>
+                                </a>
+                                <a href="pdf/pedroArellanoCV.pdf" download target="_blank" title="Descargar CV">
+                                    <i class="bx bx-download"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
+                    <div class="button">
+                        <button class="flip-button">Más información</button>
+                    </div>
                 </div>
-                <div class="button">
-                    <button class="flip-button">Mas informacion</button>
+
+                <div class="back">
+                    <div class="top">
+                        <span>Menú</span>
+                        <i class="bx bx-x flip-button" style="cursor:pointer"></i>
+                    </div>
+
+                    <div class="middle-back">
+                        <a href="#sobre-mi">Sobre mí</a>
+                        <a href="#portafolio">Portafolio</a>
+                        <a href="#estudios">Estudios</a>
+                        <a href="#habilidades">Habilidades</a>
+                    </div>
                 </div>
             </div>
-
-
-            <div class="back">
-                <div class="top-back">
-                    <p>MAS INFORMACION</p>
-                </div>
-                <div class="top-back-medio">
-                </div>
-                <div class="middle-back">
-                    <a href="#sobre-mi">Sobre mi</a>
-                    <a href="#estudios">Portafolio</a>
-                    <a href="#portafolio">Estudios</a>
-                    <a href="#habilidades">Habilidades</a>
-                </div>
-
-                <div class="button button-back">
-                    <button class="flip-button">Voltear</button>
-                </div>
-            </div>
-
         </div>
     </section>
+
     <!-- SOBRE MI -->
     <section id="sobre-mi">
         <div class="container-sobre-mi">
-            <h2>Sobre mi</h2>
+            <h2>Sobre mí</h2>
             <div class="contenido-sobre-mi">
-                <img src="img/fotoPerfil1.JPG" alt="foto-sobre-mi">
+                <img src="img/foto_hero.jpg" alt="Pedro Arellano">
                 <div class="informacion-sobre-mi">
-                    <h1 class="informacion-sobre-mi-typing">Hola me llamo <span>Pedro.</span></h1>
-                    <p>Con una sólida formación en programación, he adquirido un profundo conocimiento de lenguajes como
-                        Java y Python. Mi experiencia en el desarrollo backend, con especial enfoque en Spring Boot, me
-                        ha permitido construir aplicaciones robustas y escalables. Motivado por la constante búsqueda de
-                        nuevos desafíos, estoy ansioso por aplicar mis habilidades en un entorno profesional dinámico y
-                        contribuir al éxito de un equipo de desarrollo.
+                    <h1>Hola, soy <span>Pedro Arellano.</span></h1>
+                    <p>
+                        Soy un profesional en el área de <strong>Risk Assurance Services (PwC)</strong>, donde integro
+                        auditoría tecnológica y seguridad digital con mi formación en programación. Manejo lenguajes
+                        como <strong>Java</strong> y <strong>Python</strong>, y he desarrollado soluciones backend
+                        escalables utilizando <strong>Spring Boot</strong>. Mi enfoque combina la creación de
+                        aplicaciones modernas y seguras con la capacidad de aportar valor estratégico en entornos
+                        corporativos. Con más de 5 años de experiencia, me destaco por unir el mundo técnico con la
+                        visión de negocio, ofreciendo resultados confiables y de impacto.
+
                     </p>
-                    <a href="pdf/pedroArellanoCV.pdf" download target="_blank">Descargar CV</a>
+                    <a href="pdf/pedroArellanoCV.pdf" download target="_blank" class="btn-cv">Descargar CV</a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- PORTAFOLIO -->
+
+    <!-- PORTAFOLIO (Antes ID estudios, ahora corregido) -->
+    <section id="portafolio">
+        <div class="container-proyectos">
+            <div class="header-proyectos animate-on-scroll">
+                <h2>Mis proyectos destacados</h2>
+                <p class="descripcion-seccion">
+                    Como desarrollador Full Stack, me enfoco en crear soluciones digitales que no solo funcionan, sino
+                    que ofrecen una experiencia de usuario excepcional. Aquí hay una selección de mis trabajos más
+                    recientes.
+                </p>
+            </div>
+            <div class="contenido-proyectos">
+                <article class="proyecto-card animate-on-scroll" data-category="Backend">
+                    <div class="card-image">
+                        <img src="img/sistema de presupuestos.png" alt="Sistema de presupuestos">
+                        <span class="badget">Desktop App</span>
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>Sistema de Presupuestos</h3>
+                        <p>Optimización de cotizaciones de cocinas con Python.</p>
+                        <div class="tech-icons">
+                            <i class='bx bxl-python' title="Python"></i>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Backend</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <button class="btn-ver-mas" data-id="1">Ver más</button>
+                    </div>
+                    <!-- Hidden content for modal -->
+                    <div class="modal-content-hidden" id="modal-1">
+                        <h3>Sistema de creación de presupuestos</h3>
+                        <img src="img/sistema de presupuestos.png" alt="Sistema de presupuestos">
+                        <p>Aplicación de escritorio desarrollada en <strong>Python</strong> utilizando
+                            <strong>Tkinter</strong> para la interfaz gráfica y <strong>ReportLab</strong> para la
+                            generación de PDFs. Esta herramienta optimiza el flujo de trabajo de creación de
+                            presupuestos para cocinas, reduciendo el tiempo de cálculo manual y generando documentos
+                            profesionales listos para enviar al cliente. Incluye gestión de materiales, cálculo de
+                            costos y base de datos local.
+                        </p>
+                        <ul>
+                            <li><strong>Tecnologías:</strong> Python, Tkinter, SQLite.</li>
+                            <li><strong>Rol:</strong> Desarrollador Principal.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="proyecto-card animate-on-scroll" data-category="Backend">
+                    <div class="card-image">
+                        <img src="img/sistema de ventas.png" alt="Sistema de ventas">
+                        <span class="badget">Desktop App</span>
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>Sistema de Ventas</h3>
+                        <p>Gestión integral de facturas e inventario.</p>
+                        <div class="tech-icons">
+                            <i class='bx bxl-java' title="Java"></i>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Backend</span>
+                            <span class="tag">Java</span>
+                        </div>
+                        <button class="btn-ver-mas" data-id="2">Ver más</button>
+                    </div>
+                    <div class="modal-content-hidden" id="modal-2">
+                        <h3>Sistema de Punto de Ventas</h3>
+                        <img src="img/sistema de ventas.png" alt="Sistema de ventas">
+                        <p>Solución robusta desarrollada en <strong>Java</strong> para la gestión administrativa de
+                            pequeños comercios. Permite el control de stock en tiempo real, emisión de facturas, y
+                            generación de reportes de ventas diarios y mensuales. Diseñado con una arquitectura modular
+                            para facilitar el mantenimiento y escalabilidad.</p>
+                        <ul>
+                            <li><strong>Tecnologías:</strong> Java, Swing, MySQL.</li>
+                            <li><strong>Rol:</strong> Backend Developer.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="proyecto-card animate-on-scroll" data-category="Full Stack">
+                    <div class="card-image">
+                        <img src="img/proyectoDobleSeis.png" alt="Estadísticas de Dominó">
+                        <span class="badget">Web App</span>
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>Estadísticas de Dominó</h3>
+                        <p>Plataforma para gestión de torneos y rankings.</p>
+                        <div class="tech-icons">
+                            <i class='bx bxl-spring-boot' title="Spring Boot"></i>
+                            <i class='bx bxl-html5' title="HTML5"></i>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Full Stack</span>
+                            <span class="tag">Spring Boot</span>
+                        </div>
+                        <button class="btn-ver-mas" data-id="3">Ver más</button>
+                    </div>
+                    <div class="modal-content-hidden" id="modal-3">
+                        <h3>Plataforma de Dominó "Doble Seis"</h3>
+                        <img src="img/proyectoDobleSeis.png" alt="Estadísticas de Dominó">
+                        <p>Aplicación web completa para la gestión de ligas y torneos de dominó. El backend, construido
+                            con <strong>Spring Boot</strong>, maneja la lógica compleja de puntuaciones y rankings,
+                            mientras que el frontend presenta los datos de manera clara a los usuarios. Incluye
+                            autenticación de usuarios, registro de partidas y visualización de estadísticas en tiempo
+                            real.</p>
+                        <ul>
+                            <li><strong>Tecnologías:</strong> Spring Boot, MySQL, Thymeleaf/HTML.</li>
+                            <li><strong>Rol:</strong> Full Stack Developer.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="proyecto-card animate-on-scroll" data-category="Frontend">
+                    <div class="card-image">
+                        <img src="img/proyectoPortafolio.png" alt="Portafolio Web">
+                        <span class="badget">Web Site</span>
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>Portafolio Web</h3>
+                        <p>Diseño moderno y responsivo.</p>
+                        <div class="tech-icons">
+                            <i class='bx bxl-html5' title="HTML"></i>
+                            <i class='bx bxl-css3' title="CSS"></i>
+                            <i class='bx bxl-javascript' title="JS"></i>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Frontend</span>
+                            <span class="tag">Design</span>
+                        </div>
+                        <button class="btn-ver-mas" data-id="4">Ver más</button>
+                    </div>
+                    <div class="modal-content-hidden" id="modal-4">
+                        <h3>Portafolio Personal</h3>
+                        <img src="img/proyectoPortafolio.png" alt="Portafolio Web">
+                        <p>Este mismo sitio web. Un escaparate digital diseñado para ser rápido, accesible y visualmente
+                            impactante. Utiliza CSS moderno (Variables, Flexbox, Grid) y JavaScript para interactividad
+                            sin depender de frameworks pesados, garantizando un rendimiento óptimo y una experiencia de
+                            usuario fluida en todos los dispositivos.</p>
+                        <ul>
+                            <li><strong>Tecnologías:</strong> HTML5, CSS3, JavaScript Vanilla.</li>
+                            <li><strong>Rol:</strong> Frontend & UI Designer.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Modal Container -->
+        <div id="project-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div id="modal-body-content">
+                    <!-- Content injected by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ESTUDIOS (Timeline Vertical) -->
     <section id="estudios">
-        <div class="container-estudios">
-            <h2>Portafolio</h2>
-            <div class="contenido">
-                <article>
-                    <img src="img/sistema de presupuestos.png" alt="titulo" width="460px" height="300px">
-                    <h3>Sistema de creacion de presupuestos</h3>
-                    <p>Desarrollé una aplicación Python con Tkinter y ReportLab para optimizar la creación de
-                        presupuestos de cocinas. Esta herramienta agiliza la generación de cotizaciones personalizadas,
-                        mejorando la eficiencia y la precisión.</p>
-                    <div class="lenguaje">
-                        <span class="python">Python</span>
-                    </div>
-                </article>
-                <article>
-                    <img src="img/sistema de ventas.png" alt="titulo" width="460px" height="300px">
-                    <h3>Sistema de punto de Ventas</h3>
-                    <p> Creé una aplicación Java para mejorar la eficiencia en la gestión de facturas e inventario.
-                        Facilita el control de stock, genera reportes personalizados y agiliza los procesos
-                        administrativos, ajustándose a las necesidades específicas de la empresa.</p>
-                    <div class="lenguaje">
-                        <span class="java">Java</span>
-                    </div>
-                </article>
-                <article>
-                    <img src="img/proyectoDobleSeis.png" alt="titulo" width="460px" height="300px">
-                    <h3>Pagina de estadisticas de domino</h3>
-                    <p>Desarrollé un backend robusto para una plataforma de dominó utilizando Spring Boot y MySQL.
-                        Implementé funcionalidades clave como registro de usuarios, clubes, partidas individuales y a
-                        nivel de club, y un sistema de autenticación.</p>
-                    <div class="lenguaje">
-                        <span class="spring">Spring Boot</span>
-                        <span class="html">Html</span>
-                        <span class="css">Css</span>
-                        <span class="js">Javasript</span>
-                    </div>
-
-                </article>
-                <article>
-                    <img src="img/proyectoPortafolio.png" alt="titulo" width="460px" height="300px">
-                    <h3>Portafolio Web</h3>
-                    <p>Diseñé y desarrollé mi portafolio web desde cero utilizando HTML, CSS y JavaScript. Creé una
-                        experiencia visualmente atractiva y altamente funcional, donde cada detalle refleja mi estilo
-                        único y mis habilidades técnicas.</p>
-                    <div class="lenguaje">
-                        <span class="html">Html</span>
-                        <span class="css">Css</span>
-                        <span class="js">Javasript</span>
-                    </div>
-                </article>
+        <h2>Estudios</h2>
+        <div class="timeline">
+            <!-- Item 1 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Cursando</span>
+                    <h3>Diplomado en Alta Gerencia Empresarial</h3>
+                    <p>CEA Internacional</p>
+                </div>
             </div>
 
+            <!-- Item 1 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">01.02.2025</span>
+                    <h3>Diplomado Programación Web</h3>
+                    <p>CEA Internacional</p>
+                </div>
+            </div>
 
-        </div>
-    </section>
-    <!-- Estudios-->
-    <sectiom id="portafolio">
-        <div class="container-portafolio">
-            <h2>Estudios</h2>
-            <div class="ag-format-container">
-                <div class="ag-courses_box">
-                    <div class="ag-courses_item">
-                        <a class="ag-courses-item_link">
-                            <div class="ag-courses-item_bg"></div>
+            <!-- Item 2 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">12.12.2024</span>
+                    <h3>Ingeniería Industrial</h3>
+                    <p>Universidad José Antonio Páez</p>
+                </div>
+            </div>
 
-                            <div class="ag-courses-item_title">
-                                Ingenieria Industrial - Universida Jose Antonio Paez
-                            </div>
+            <!-- Item 3 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">15.03.2024</span>
+                    <h3>Diplomado Marketing Digital y RRSS</h3>
+                    <p>Diplomados VIP</p>
+                </div>
+            </div>
 
-                            <div class="ag-courses-item_date-box">
-                                Culminacion:
-                                <span class="ag-courses-item_date">
-                                    12.12.2024
-                                </span>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="ag-courses_item">
-                        <a class="ag-courses-item_link">
-                            <div class="ag-courses-item_bg"></div>
-
-                            <div class="ag-courses-item_title">
-                                Master en programacion - CEA Internacional
-                            </div>
-
-                            <div class="ag-courses-item_date-box">
-                                Culminacion:
-                                <span class="ag-courses-item_date">
-                                    06.08.2022
-                                </span>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="ag-courses_item">
-                        <a class="ag-courses-item_link">
-                            <div class="ag-courses-item_bg"></div>
-
-                            <div class="ag-courses-item_title">
-                                Diplomado Marketing digital y RRSS - Diplomados VIP
-                            </div>
-
-                            <div class="ag-courses-item_date-box">
-                                Culminacion:
-                                <span class="ag-courses-item_date">
-                                    15.03.2024
-                                </span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="ag-courses_item">
-                        <a class="ag-courses-item_link">
-                            <div class="ag-courses-item_bg"></div>
-
-                            <div class="ag-courses-item_title">
-                                Diplomado Programacion Web - CEA Internacional
-                            </div>
-
-                            <div class="ag-courses-item_date-box">
-                                Culminacion:
-                                <span class="ag-courses-item_date">
-                                    Cursando
-                                </span>
-                            </div>
-                        </a>
-                    </div>
+            <!-- Item 4 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">06.08.2022</span>
+                    <h3>Máster en Programación</h3>
+                    <p>CEA Internacional</p>
                 </div>
             </div>
         </div>
-    </sectiom>
+    </section>
+
     <!-- HABILIDADES -->
     <section id="habilidades">
         <div class="container-habilidades">
             <h2>Habilidades</h2>
-            <div class="contenido-habilidades">
-                <article>
-                    <span>Frontend</span>
-                    <div class="contenido-frontend">
-                        <div class="imagen">
-                            <img src="img/html-5.png" alt="html" width="35px">
-                            <p>html</p>
+            <div class="grid-habilidades">
+                <!-- Frontend -->
+                <article class="categoria-habilidad">
+                    <h3>Frontend</h3>
+                    <div class="iconos-grid">
+                        <div class="tech-icon">
+                            <img src="img/html-5.png" alt="HTML">
+                            <p>HTML</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/css-3.png" alt="css" width="35px">
-                            <p>Css</p>
+                        <div class="tech-icon">
+                            <img src="img/css-3.png" alt="CSS">
+                            <p>CSS</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/js.png" alt="Javasript" width="35px">
-                            <p>Javasript</p>
+                        <div class="tech-icon">
+                            <img src="img/js.png" alt="JS">
+                            <p>JavaScript</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/adobe-xd.png" alt="adobe-xd" width="35px">
-                            <p>Adobe xd</p>
+                        <div class="tech-icon">
+                            <img src="img/bootstrap-logo.png" alt="Bootstrap">
+                            <p>Bootstrap</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/bootstrap-logo.png" alt="adobe-xd" width="35px">
-                            <p>Bootstrap 5</p>
+                        <div class="tech-icon">
+                            <img src="img/typescript.png" alt="TypeScript">
+                            <p>TypeScript</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/typescript.png" alt="typescript-logo" width="35px">
-                            <p>Typescript</p>
-                        </div>
-
-
                     </div>
-
                 </article>
-                <article>
-                    <span>Backend</span>
-                    <div class="contenido-backend">
-                        <div class="imagen">
-                            <img src="img/java.png" alt="java-logo" width="35px">
-                            <p>java</p>
+
+                <!-- Backend -->
+                <article class="categoria-habilidad">
+                    <h3>Backend</h3>
+                    <div class="iconos-grid">
+                        <div class="tech-icon">
+                            <img src="img/java.png" alt="Java">
+                            <p>Java</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/piton.png" alt="python-logo" width="35px">
+                        <div class="tech-icon">
+                            <img src="img/piton.png" alt="Python">
                             <p>Python</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/springboot.png" alt="springboot-logo" width="35px">
+                        <div class="tech-icon">
+                            <img src="img/springboot.png" alt="Spring Boot">
                             <p>Spring Boot</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/mysql.png" alt="Mysql-logo" width="35px">
-                            <p>Mysql</p>
+                        <div class="tech-icon">
+                            <img src="img/mysql.png" alt="MySQL">
+                            <p>MySQL</p>
+                        </div>
+                        <div class="tech-icon">
+                            <img src="img/php.png" alt="PHP">
+                            <p>PHP</p>
                         </div>
                     </div>
                 </article>
-                <article>
-                    <span>Aprendiendo</span>
-                    <div class="contenido-aprendiendo">
-                        <div class="imagen">
-                            <img src="img/php.png" alt="php-logo" width="35px">
-                            <p>Php</p>
-                        </div>
-                        <div class="imagen">
-                            <img src="img/angular-logo.png" alt="Angular-logo" width="35px">
-                            <p>Angular</p>
-                        </div>
-                        <div class="imagen">
-                            <img src="img/tailwind.png" alt="tailwind-logo" width="35px">
-                            <p>Tailwind</p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <span>Herramientas</span>
-                    <div class="contenido-herramientas">
-                        <div class="imagen">
-                            <img src="img/git-logo.png" alt="git-logo" width="35px">
+
+                <!-- Herramientas -->
+                <article class="categoria-habilidad">
+                    <h3>Herramientas</h3>
+                    <div class="iconos-grid">
+                        <div class="tech-icon">
+                            <img src="img/git-logo.png" alt="Git">
                             <p>Git</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/github-logo.png" alt="github-logo" width="35px">
-                            <p>Github</p>
+                        <div class="tech-icon">
+                            <img src="img/github-logo.png" alt="GitHub">
+                            <p>GitHub</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/visual-logo.png" alt="visual-logo" width="35px">
-                            <p style="font-size: 9px;">Visual Studio</p>
+                        <div class="tech-icon">
+                            <img src="img/intellij-idea.svg" alt="IntelliJ">
+                            <p>IntelliJ</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/intellij-idea.svg" alt="intellij-logo" width="35px">
-                            <p>Intellij</p>
+                        <div class="tech-icon">
+                            <img src="img/aws.png" alt="AWS">
+                            <p>AWS</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/pycharn-logo.png" alt="pycharn-logo" width="35px">
-                            <p>Pycharn</p>
+                    </div>
+                </article>
+
+                <!-- Soft Skills -->
+                <article class="categoria-habilidad">
+                    <h3>Habilidades Blandas</h3>
+                    <div class="iconos-grid soft-skills-grid">
+                        <div class="tech-icon soft-skill">
+                            <i class='bx bx-chat'></i>
+                            <p>Comunicación</p>
                         </div>
-                        <div class="imagen">
-                            <img src="img/aws.png" alt="AWS-logo" width="35px">
-                            <p>Aws</p>
+                        <div class="tech-icon soft-skill">
+                            <i class='bx bx-brain'></i>
+                            <p>Pensamiento Crítico</p>
+                        </div>
+                        <div class="tech-icon soft-skill">
+                            <i class='bx bx-analyse'></i>
+                            <p>Adaptabilidad</p>
+                        </div>
+                        <div class="tech-icon soft-skill">
+                            <i class='bx bx-group'></i>
+                            <p>Colaboración</p>
+                        </div>
+                        <div class="tech-icon soft-skill">
+                            <i class='bx bx-time-five'></i>
+                            <p>Gestión de Tiempo</p>
+                        </div>
+                        <div class="tech-icon soft-skill">
+                            <i class='bx bx-bulb'></i>
+                            <p>Resolución</p>
                         </div>
                     </div>
                 </article>
             </div>
-
-
         </div>
     </section>
 
-
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <div class="container-contacto animate-on-scroll">
+            <h2>¿Trabajamos juntos?</h2>
+            <p>Estoy en búsqueda de nuevas oportunidades para contribuir con mi experiencia en desarrollo y auditoría
+                tecnológica. Si tienes un proyecto interesante o una vacante, ¡hablemos!</p>
+            <div class="contacto-buttons">
+                <a href="mailto:tuemail@ejemplo.com" class="btn-contacto email"><i class='bx bx-envelope'></i> Enviar
+                    Correo</a>
+                <a href="https://linkedin.com/in/tu-perfil" target="_blank" class="btn-contacto linkedin"><i
+                        class='bx bxl-linkedin'></i> LinkedIn</a>
+            </div>
+        </div>
+    </section>
 
     <!-- FOOTER -->
     <footer>
-        <section id="fin">
-            <a href="#inicio">Ir al inicio</a>
-            <a href="mailto:pedroarellano9810@gmail.com">Contacto</a>
-        </section>
-        <p>Copyright © 2024</p>
+        <div class="footer-content">
+            <p>Copyright © 2026 Pedro Arellano</p>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="mailto:pedroarellano9810@gmail.com">Contacto</a>
+            </div>
+        </div>
     </footer>
 
     <script src="js/script.js"></script>
