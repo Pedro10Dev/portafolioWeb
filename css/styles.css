@@ -3,22 +3,19 @@
 
 :root {
     --bg-color: #010E1C;
-    /* Navy Blue Base */
     --bg-secondary: #0f1c2e;
     --accent-color: #00bcd4;
-    /* Electric Blue */
     --accent-hover: #00acc1;
     --text-color: #ffffff;
     --text-muted: #b0bec5;
 
-    /* New Palette Additions */
+
     --mint-green: #00E676;
     --coral: #FF5252;
     --navy-light: #1A3A5A;
-    /* Dark Gray-ish Blue */
+
 
     --card-bg: rgba(26, 58, 90, 0.4);
-    /* Glass effect on Navy Light */
     --card-border: rgba(255, 255, 255, 0.1);
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
@@ -73,7 +70,6 @@ img {
     width: 100%;
     max-width: 550px;
     height: 450px;
-    /* Aumentado para ajustar nuevo contenido */
     perspective: 1000px;
 }
 
@@ -97,19 +93,15 @@ img {
     height: 100%;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-    /* Safari Fix */
     background-color: var(--card-bg);
     border: 1px solid var(--card-border);
     border-radius: 20px;
     box-shadow: var(--shadow);
-    /* backdrop-filter puede causar borrosidad en algunos móviles junto con 3D. 
-       Si persiste el problema, se recomienda eliminar esta línea. */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    /* Hacks para mejorar nitidez en transformaciones 3D */
     transform: translateZ(0);
     -webkit-font-smoothing: subpixel-antialiased;
 }
@@ -129,7 +121,6 @@ img {
     border-radius: 20px 20px 0 0;
 }
 
-/* ... */
 
 .tag {
     background: rgba(255, 255, 255, 0.05);
@@ -148,7 +139,6 @@ img {
 
 .top img {
     height: 24px;
-    /* Un poco más grande la bandera */
     width: auto;
 }
 
@@ -206,7 +196,6 @@ img {
 .middle ul {
     display: flex;
     flex-direction: column;
-    /* En móvil se centrará si el padre tiene algin-items center */
 }
 
 .middle ul li {
@@ -216,10 +205,9 @@ img {
     display: flex;
     align-items: center;
     gap: 10px;
-    /* Espacio consistente entre flecha y texto */
 }
 
-/* En mobile, como .middle tiene align-items center (si es flex column) o text-align center, necesitamos que los li se auto-centren o se comporten bien */
+
 @media (max-width: 768px) {
     .middle ul li {
         justify-content: center;
@@ -230,10 +218,9 @@ img {
     content: '▹';
     color: var(--accent-color);
     font-weight: bold;
-    /* Ya no es absolute, es un elemento flex */
 }
 
-/* Social Icons */
+
 .social-icon {
     display: flex;
     gap: 12px;
@@ -247,9 +234,7 @@ img {
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    /* Borde visible en claro */
     color: var(--text-color);
-    /* Icono oscuro por defecto */
     border-radius: 50%;
     transition: all 0.3s ease;
     font-size: 1.2rem;
@@ -258,34 +243,28 @@ img {
 .social-icon a:hover {
     background: var(--accent-color);
     color: #fff;
-    /* Icono blanco al hover */
     border-color: var(--accent-color);
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(37, 99, 235, 0.4);
 }
 
-/* ... */
+
 
 .modal-content {
     background-color: var(--card-bg);
-    /* Blanco */
-    /* ... */
 }
 
-/* Fix Modal List Background */
 #modal-body-content ul {
     list-style: none;
     background: rgba(255, 255, 255, 0.05);
-    /* Gris muy claro */
     padding: 20px;
     border-radius: 10px;
     border: none;
 }
 
-/* Buttons */
+
 .button {
     padding: 0 25px 25px 25px;
-    /* Subido desde abajo con más padding bottom */
     text-align: right;
 }
 
@@ -320,14 +299,12 @@ img {
     letter-spacing: 0.5px;
     font-size: 0.75rem;
     animation: pulse-btn 2s infinite ease-in-out;
-    /* Animación para atraer clicks */
 }
 
 .flip-button:hover {
     transform: translateY(-2px) scale(1.02);
     box-shadow: 0 6px 20px rgba(0, 188, 212, 0.5);
     animation: none;
-    /* Pausar animación al hacer hover */
 }
 
 /* Back Card Navigation */
@@ -369,7 +346,7 @@ img {
     margin: 0 auto;
 }
 
-/* ESTILOS GENERALES DE TÍTULOS (Unificados) */
+
 .container-sobre-mi h2,
 .container-proyectos h2,
 #estudios h2,
@@ -486,7 +463,7 @@ img {
     border-color: var(--accent-color);
 }
 
-/*----PORTAFOLIO (Proyectos)----*/
+/*----PORTAFOLIO ----*/
 #portafolio {
     padding: 100px 20px;
     background: linear-gradient(180deg, var(--bg-color) 0%, rgba(0, 188, 212, 0.03) 50%, var(--bg-color) 100%);
@@ -631,7 +608,7 @@ img {
     box-shadow: 0 0 15px rgba(255, 82, 82, 0.4);
 }
 
-/* Modal Styles */
+
 .modal-content-hidden {
     display: none;
 }
@@ -723,7 +700,7 @@ img {
     color: var(--mint-green);
 }
 
-/* Modal Buttons Links */
+
 .modal-buttons {
     display: flex;
     gap: 15px;
@@ -832,7 +809,7 @@ img {
     color: #000;
 }
 
-/* Scroll Animations */
+
 .animate-on-scroll {
     opacity: 0;
     transform: translateY(30px);
@@ -844,7 +821,7 @@ img {
     transform: translateY(0);
 }
 
-/*----ESTUDIOS (Timeline)----*/
+/*----ESTUDIOS  ----*/
 #estudios {
     padding: 80px 20px;
     max-width: 1000px;
@@ -939,7 +916,6 @@ img {
     margin: 0 auto;
 }
 
-/* Styles moved to unified H2 selector */
 
 .grid-habilidades {
     display: grid;
@@ -1025,24 +1001,21 @@ footer {
     color: var(--accent-color);
 }
 
-/*----RESPONSIVE MEDIA QUERIES----*/
+
 @media (max-width: 768px) {
 
-    /* Inicio Section Fix */
+
     #inicio {
         min-height: 100vh;
         height: auto;
         padding: 40px 20px;
         align-items: center;
-        /* Centrar verticalmente */
         display: flex;
     }
 
-    /* Card Mobile Fix */
     .card {
         max-width: 100%;
         height: 700px;
-        /* Aumentado para que "ocupe más a lo largo" como pidió el usuario */
         margin: 20px 0;
     }
 
@@ -1054,25 +1027,21 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        /* Distribuir espacio */
+
     }
 
-    /* Solicitud de User: Imagen más grande, pero en móvil a veces conviene ajustar para que quepa todo */
+
     .middle {
         flex-direction: column;
         padding: 20px 15px;
         text-align: center;
         gap: 0;
-        /* Quitamos gap fijo para usar justify-content */
         flex-grow: 1;
-        /* Ocupar todo el espacio disponible */
         justify-content: space-evenly;
-        /* Distribuir elementos uniformemente */
     }
 
     .middle img {
         width: 180px;
-        /* Un poco más pequeño que desktop pero grande para móvil */
         height: 220px;
         margin: 0 auto;
     }
@@ -1088,7 +1057,6 @@ footer {
 
     .top span {
         font-size: 0.9rem;
-        /* Un poco más pequeño si es necesario */
     }
 
     /* Sobre Mi */
@@ -1113,10 +1081,10 @@ footer {
 
     .informacion-sobre-mi p {
         text-align: left;
-        /* Mantener justificado o izquierda para lectura */
+
     }
 
-    /* Timeline Mobile */
+
     .timeline::before {
         left: 20px;
     }
@@ -1150,17 +1118,16 @@ footer {
 @media (max-width: 480px) {
     .card {
         min-height: 580px;
-        /* Más altura para pantallas muy estrechas si el contenido se apila */
+
     }
 
     .middle img {
         width: 180px;
-        /* Aumentado de 140px por solicitud */
         height: 220px;
         margin: 0 auto;
     }
 
-    /* Asegurar que el nombre se vea completo */
+
     .top span {
         display: inline-block;
         font-size: 0.85rem;
